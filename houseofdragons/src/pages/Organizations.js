@@ -24,7 +24,7 @@ const Organizations = () => {
         <h1>{name} </h1>
         <p>{description}</p>
 <ul> <li>{type}</li>
-<li>{center}</li></u> 
+<li>{center}</li></ul> 
       </article>
       <article>
         <img src={images} alt={name} title={name} />
