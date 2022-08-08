@@ -1,0 +1,142 @@
+
+{
+    "characters": [
+        {
+            "name": "Daemon Targaryen",
+            "portrait": "./assets/characters/daemon.png",
+            "description": "Prince Daemon Targaryen was a member of House Targaryen, being a younger son of Prince Baelon Targaryen and a brother of King Viserys I Targaryen. Daemon was the second husband of Rhaenyra Targaryen, Princess of Dragonstone, following Ser Laenor Velaryon. Daemon was the most experienced warrior of his time and wielded the Valyrian steel blade Dark Sister.A dragonrider whose dragon was Caraxes, Daemon declared himself the King of the Stepstones and the Narrow Sea. During the Dance of the Dragons, he was a prominent supporter of his wife, Rhaenyra.",
+            "region": "Crownlands",
+            "house": "Targaryen"
+        },
+        {
+            "name": "Viserys I Targaryen",
+            "portrait": "./assets/Characters/Viserys.png",
+            "description": "Viserys I Targaryen was the fifth Targaryen king to sit the Iron Throne, ruling from 103 AC to 129 AC. He succeeded his grandfather, the Old King Jaehaerys I. Viserys continued the prosperous peace and legacy of his grandsire, but the seeds for the civil war known as the Dance of the Dragons that would much later engulf the realm were inadvertently sown in his reign.",
+            "region": "Crownlands",
+            "house": "Targaryen"
+        },
+        {
+            "name": "Rhaenyra Targaryen",
+            "portrait": "./assets/Characters/Rhaenyra.png",
+            "description": "Princess Rhaenyra Targaryen, cheered as the Realm's Delight when she was young and later called the Half-Year Queen, was the first-born child of King Viserys I Targaryen. Rhaenyra was King Viserys I's only living child by his first wife, Queen Aemma of House Arryn. At the age of eight, she was made her father's heir and grew up expecting to become the first ruling Queen of Westeros. Rhaenyra was a dragonrider whose mount was Syrax.",
+            "region": "Crownlands",
+            "house": "Targaryen"
+        },
+        {
+            "name": "Otto Hightower",
+            "portrait": "./assets/Characters/Otto.png",
+            "description": "Ser Otto Hightower was a knight from House Hightower who served as Hand of the King to three kings, although two of the kings removed him from office at various times. He was the younger brother of Lord Hightower, and the uncle of Lord Ormund Hightower of Oldtown.His children included Alicent Hightower, the second queen of King Viserys I Targaryen, and Ser Gwayne Hightower, second in command of the gold cloaks. Otto is remembered as a warning that knowledge is not everything.",
+            "region": "Reach",
+            "house": "Hightower"
+        },
+        {
+            "name": "Corlys Velaryon",
+            "portrait": "./assets/Characters/Corlys.png",
+            "description": "By the of age seven-and-thirty, Corlys was hailed as the greatest seafarer the Seven Kingdoms had ever known. Corlys was said to be as brilliant as he was restless, and as adventurous as he was ambitious. Though he accomplished much and more in life, he was seldom satisfied.Corlys was known to be intractable, even in old age.",
+            "region": "Valyria",
+            "house": "Valyrian"
+        },
+        {
+            "name": "Alicent Hightower",
+            "portrait": "./assets/Characters/Alicent.png",
+            "description": "Alicent Hightower was a member of House Hightower who became the second wife to King Viserys I Targaryen. She was the daughter of Ser Otto Hightower, who had been Hand of the King to Jaehaerys I, Viserys I, and later his grandson Aegon II. She was the mother of King Aegon II, Queen Helaena, Prince Aemond and Prince Daeron.",
+            "region": "Reach",
+            "house": "Hightower"
+        },
+        {
+            "name": "Rhaenys Velaryon",
+            "portrait": "./assets/Characters/Rhaenys.png",
+            "description": "Princess Rhaenys Targaryen, known as the Queen Who Never Was, was the daughter of Prince Aemon Targaryen and Lady Jocelyn Baratheon. She was married to Lord Corlys Velaryon of Driftmark. She was a dragonrider whose dragon was Meleys, the Red Queen",
+            "region": "Valyria",
+            "house": "Valyrian"
+        }
+    ],
+    "regions": [
+        {
+            "name": "The North",
+            "map": "./assets/Regions/The_North.webp",
+            "rulers": "House Stark",
+            "capital": "Winterfell",
+            "bio": "According to legend, the Kingdom of the North was established eight thousand years ago by Bran the Builder, the founder of House Stark, who constructed the Wall as a shield against the possible return of the White Walkers. The North is the only region where the First Men were able to successfully resist the Andal Invasion, six thousand years before the War of the Five Kings. As a result the North is the only region of Westeros in which the ethnic makeup is predominantly First Men, and the only region where the culture, customs, and traditions of the First Men still predominate. Among these is the belief that the man who passes the sentence of death must swing the sword himself."
+        },
+        {
+            "name": "Riverlands",
+            "map": "./assets/Regions/The_Riverlands.webp",
+            "rulers": "House Tully",
+            "capital": "Riverrun",
+            "bio": "The Riverlands is one of the constituent regions of the Seven Kingdoms. They have been a frequent battleground in the civil wars that have afflicted the Seven Kingdoms and also in the wars that took place between the old nations of the continent before the Targaryen Conquest. During the time of the First Men, the Riverlands were an independent kingdom known as the Kingdom of the Rivers and the Hills."
+        },
+        {
+            "name": "Vale of Arryn",
+            "map": "./assets/Regions/Vale_of_Arryn.webp",
+            "rulers": "House Arryn ",
+            "capital": "The Eyrie",
+            "bio": "The Vale of Arryn, often referred to simply as the Vale, is one of the constituent regions of the Six Kingdoms. Prior to the War of Conquest, it was a sovereign nation known as the Kingdom of Mountain and Vale. It is ruled by House Arryn from their stronghold, the Eyrie. Protected and surrounded by the Mountains of the Moon, the Vale is isolated from the rest of Westeros and is accessible only during warmer seasons"
+        },
+        {
+            "name": "Iron Island",
+            "map": "./assets/Regions/Iron_Islands.webp",
+            "rulers": "House Greyjoy",
+            "capital": "Pyke",
+            "bio": "The islands are the smallest and one of the least-populous regions of Westeros, but the naval skills of their people, the ironborn, are unmatched and they enjoy great mobility due to their ships. The ironborn also have a unique culture and religion, centered on maritime raiding and pillaging other peoples, that sets them apart from mainland Westeros. However, they were forced to stop these practices following the War of Conquest, or at least to stop raiding around Westeros itself. Although this edict was not always effectively enforced by the Iron Throne, Daenerys Targaryen reinstated it as a condition of the Iron Islands regaining independent rule nearly 300 years later."
+        },
+        {
+            "name": "Westerlands",
+            "map": "./assets/Regions/The_Westerlands.webp",
+            "rulers": "House Lannister",
+            "capital": "Casterly Rock",
+            "bio": "The Westerlands are ruled from the castle of Casterly Rock by House Lannister. It is one of the smaller regions of the Seven Kingdoms geographically but has one of the larger populations. It is also immensely rich in natural resources, particularly metals. Predominantly mountainous, the hills of the Westerlands are riddled with veins of gold and silver, the mining of which has made the Lannisters and their bannermen immensely rich; the abundance of iron also allows them to easily forge weapons and military equipment. While the Lannister armies are not as huge as those of the Reach, they are the best-equipped in the realm with heavily-armored soldiers and cavalry."
+        },
+        {
+            "name": "The Reach",
+            "map": "./assets/Regions/The_Reach.webp",
+            "rulers": "House Tyrell",
+            "capital": "Highgarden",
+            "bio": "It is the most fertile part of Westeros, blessed with vast, blooming fields of crops and flowers, and numerous and well-populated villages and towns; it traditionally helps supply other less fertile parts of the Seven Kingdoms (most notably King's Landing) with grain, fruit, wine and livestock. The Reach is also the most heavily-populated part of Westeros and is one of the richest, second only to the Westerlands, ruled by House Lannister. However this claim is suggested to be rather outdated as Lannister gold mines—the source of their wealth—have dried out, and have been weakened by the War of the Five Kings, thus making the Reach actually the wealthiest region. Due to this, the Tyrells could traditionally field the largest army in the Seven Kingdoms, almost as large as the armies from two of the other populous kingdoms combined."
+        },
+        {
+            "name": "The Crownlands",
+            "map": "./assets/Regions/The_Crownlands.webp",
+            "rulers": "House Targaryen",
+            "capital": "King's Landing",
+            "bio": "The Crownlands is one of the nine constituent regions of the Seven Kingdoms. Instead of being ruled by a Lord Paramount, the Crownlands are ruled directly by the monarch on the Iron Throne from the city of King's Landing, the largest city in Westeros and the capital of the Seven Kingdoms. The Crownlands were never a sovereign nation, instead being contested between the Riverlands, the Stormlands, and other regions for thousands of years until Aegon the Conqueror seized control of the area during his invasion and made it his primary foothold on the continent. It is therefore the newest of the regions in Westeros, and as a result, does not have much of a distinct cultural identity, so much as it is shaped by its distinction as the region containing the capital city."
+        },
+        {
+            "name": "Dorne",
+            "map": "./assets/Regions/Dorne.webp",
+            "rulers": "House ",
+            "capital": "Sunspear",
+            "bio": "Dorne is one of the nine constituent regions of the Seven Kingdoms. It is the southernmost part of the continent of Westeros, located thousands of miles from Winterfell and the North, and has a harsh desert climate. The Dornishmen are ethnically distinct from the rest of the Seven Kingdoms, being largely descended from Rhoynar refugees who intermarried with the local population of Andals and First Men roughly a thousand years ago. As a result, they have very different customs and traditions compared to the other regions of Westeros."
+        }
+    ],
+    "organizations": [
+        {
+            "name": "Night's Watch",
+            "images": "./assets/Organizations/Nights_watch_brothers.webp",
+            "description": "The Night's Watch is a military order which holds and guards the Wall to keep the wildlings and White Walkers from crossing into the Seven Kingdoms. The order is a shadow of its former strength and its meager forces have been decimated by recent attacks from both wildlings and White Walkers. For the past couple of centuries, the order has been led from Castle Black.",
+            "type:": "Sworn Brotherhood / Military Order",
+            "center": "Castle Black"
+        },
+        {
+            "name": "Faith of the Seven",
+            "images": "./assets/Organizations/Sept_Seven.webp",
+            "description": "The Faith of the Seven, also commonly referred to as the New Gods, is the main religion of the Seven Kingdoms. It is little-practiced beyond its borders. The Faith of the Seven is dominant in the south of Westeros. The only regions where it is not the majority religion are the North, where worship of the Old Gods of the Forest remains strong, and on the Iron Islands, where the local religion of the Drowned God is most widespread. There are many exceptions in these areas, however.",
+            "type:": "Monotheism",
+            "center": "Great Sept of Baelor"
+        },
+        {
+            "name": "Small Council",
+            "images": "./assets/Organizations/SmallCouncil.jpeg",
+            "description": "The small council is a body which advises the king of the Six Kingdoms and institutes policy at his command. It is the inner (thus small) council of the king, essentially forming the government cabinet of the Seven Kingdoms. Members are appointed to their position by the King; theoretically they can be dismissed at will by the king, however in practice this might lead to undesirable political fallout.",
+            "type:": "Privy Council",
+            "center": "The Red Keep"
+        },
+        {
+            "name": "Order of Maesters",
+            "images": "./assets/Organizations/Maesters.webp",
+            "description": "The Order of Maesters, also known as the Maesters of the Citadel, the Knights of the Mind, and most often simply as the Maesters, are an order of intellectuals (scholars, healers, and other learned men) in the Seven Kingdoms.",
+            "type:": "Scholastic Order",
+            "center": "The Citadel, Oldtown"
+        }
+    ]
+}
