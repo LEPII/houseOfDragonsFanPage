@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import data from "../data.json";
 
 const Organizations = () => {
-    const [spaceTech] = useState(data.technology);
+    const [westerosOrgs] = useState(data.organizations);
     const [value, setValue] = useState(0);
 
-    const { name, images, description } = spaceTech[value];
+    const { name, images, description, type, center } = westerosOrgs[value];
 
   return (
     <section>
-      <h3>03</h3> <span> SPACE LAUNCH 101 </span>
+      <h3>03</h3> <span> Westeros Organizations </span>
       <article>
         <ul>
-          {spaceTech.map((tech, index) => (
+          {orgs.map((org, index) => (
             <li key={index}>
               <button onClick={() => setValue(index)}>{index + 1}</button>
             </li>
