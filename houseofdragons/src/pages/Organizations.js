@@ -23,9 +23,11 @@ const Organizations = () => {
         <p>THE TERMINOLOGY...</p>
         <h1>{name} </h1>
         <p>{description}</p>
+<ul> <li>{type}</li>
+<li>{center}</li></u> 
       </article>
       <article>
-        <img src={images.portrait} alt={name} title={name} />
+        <img src={images} alt={name} title={name} />
       </article>
     </section>
   );
