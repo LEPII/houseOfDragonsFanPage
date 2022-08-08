@@ -2,30 +2,30 @@ import React, { useState } from "react";
 import data from "../data.json";
 
 const Regions = () => {
-  const [spaceRocks] = useState(data.destinations);
+  const [gotRegions] = useState(data.regions);
   const [value, setValue] = useState(0);
 
   // As we destructure the data from the state value into separate values, we set the "value" state to be the index value of our data that's being stored inside of our "spaceRocks" state.
-  const { name, images, description, distance, travel } = spaceRocks[value];
+  const { name, map, rulers, capital, bio } = gotRegions[value];
   return (
     <section>
       <article>
         <h3>01</h3> <span> PICK YOUR DESTINATION </span>
-        <img src={images.png} alt={name} title={name} />
+        <img src={map} alt={name} title={name} />
         <ul>
-          {spaceRocks.map((rocks, index) => (
+          {gotRegions.map((regs, index) => (
             <li key={index}>
-              <button onClick={() => setValue(index)}>{rocks.name}</button>
+              <button onClick={() => setValue(index)}>{regs.name}</button>
             </li>
           ))}
         </ul>
       </article>
       <article>
-        <h2>{name} </h2> <p>{description} </p> <br />
-        <p>AVG. DISTANCE</p>
-        <h6>{distance}</h6>
-        <p>EST. TRAVEL TIME</p>
-        <h6>{travel}</h6>
+        <h2>{name} </h2> <p>{bio} </p> <br />
+        <p> Rulers </p>
+        <h6>{rulers}</h6>
+        <p>Capital</p>
+        <h6>{capital}</h6>
       </article>
     </section>
   );
