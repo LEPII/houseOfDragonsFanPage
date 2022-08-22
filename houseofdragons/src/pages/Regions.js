@@ -10,8 +10,8 @@ const Regions = () => {
   return (
     <section>
       <article>
-        <h3>01</h3> <span> PICK YOUR DESTINATION </span>
-        <img src={map} alt={name} title={name} />
+        <h3>02</h3> <span> PICK YOUR DESTINATION </span>
+        <img src={map} alt={name} title={name} width="500" height="500"/>
         <ul>
           {gotRegions.map((regs, index) => (
             <li key={index}>

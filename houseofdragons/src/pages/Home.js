@@ -3,13 +3,13 @@ import React from 'react'
 const Home = () => {
   return (
     <section>
-      <h5> So, you want to travel to </h5>
-      <h1> Space </h1>
+      <h5> What is this breif, mortal life, if not the pursuit of legacy? </h5>
+      <h1> House of Dragons</h1>
+      <h6> Fan Page</h6>
       <p>
-        Let’s face it; if you want to go to space, you might as well genuinely
-        go to outer space and not hover kind of on the edge of it. Well sit
-        back, and relax because we’ll give you a truly out of this world
-        experience!
+        Explore the monarchs that keeps the kingdoms at bay with their dragons,
+        the lands they rule and sometimes burn to conquer, and the groups that
+        keeps everything together from remembering the world's memories to protecting us from the long night... 
       </p>
       <button> Explore </button>
     </section>

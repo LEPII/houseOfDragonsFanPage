@@ -1,9 +1,16 @@
-import Characters from "./pages/Characters";
-
+import { Link, Outlet } from "react-router-dom";
 
 function App() {
   return (
-   <Characters> </Characters>
+    <>
+      <nav>
+        <Link to="home">Home</Link>
+        <Link to="characters">Characters</Link> 
+        <Link to="regions">Regions</Link>
+        <Link to="organizations">Organizations</Link>
+      </nav>
+      <Outlet />
+    </>
   );
 }
 
