@@ -3,9 +3,21 @@
   box-sizing: border-box;
 }
 
+
 body {
-  font-family: 'Bellefair',
-    serif;
+font-family: 'Cormorant Garamond', serif;
+background-image: url(../public/assets/Home/Fire\ Backdrop.avif);
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #F6EDED;
+  height: 100vh;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 

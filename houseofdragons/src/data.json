@@ -114,28 +114,28 @@
             "name": "Night's Watch",
             "images": "./assets/Organizations/Nights_watch_brothers.webp",
             "description": "The Night's Watch is a military order which holds and guards the Wall to keep the wildlings and White Walkers from crossing into the Seven Kingdoms. The order is a shadow of its former strength and its meager forces have been decimated by recent attacks from both wildlings and White Walkers. For the past couple of centuries, the order has been led from Castle Black.",
-            "type:": "Sworn Brotherhood / Military Order",
+            "type": "Sworn Brotherhood / Military Order",
             "center": "Castle Black"
         },
         {
             "name": "Faith of the Seven",
             "images": "./assets/Organizations/Sept_Seven.webp",
             "description": "The Faith of the Seven, also commonly referred to as the New Gods, is the main religion of the Seven Kingdoms. It is little-practiced beyond its borders. The Faith of the Seven is dominant in the south of Westeros. The only regions where it is not the majority religion are the North, where worship of the Old Gods of the Forest remains strong, and on the Iron Islands, where the local religion of the Drowned God is most widespread. There are many exceptions in these areas, however.",
-            "type:": "Monotheism",
+            "type": "Monotheism",
             "center": "Great Sept of Baelor"
         },
         {
             "name": "Small Council",
             "images": "./assets/Organizations/SmallCouncil.jpeg",
             "description": "The small council is a body which advises the king of the Six Kingdoms and institutes policy at his command. It is the inner (thus small) council of the king, essentially forming the government cabinet of the Seven Kingdoms. Members are appointed to their position by the King; theoretically they can be dismissed at will by the king, however in practice this might lead to undesirable political fallout.",
-            "type:": "Privy Council",
+            "type": "Privy Council",
             "center": "The Red Keep"
         },
         {
             "name": "Order of Maesters",
             "images": "./assets/Organizations/Maesters.webp",
             "description": "The Order of Maesters, also known as the Maesters of the Citadel, the Knights of the Mind, and most often simply as the Maesters, are an order of intellectuals (scholars, healers, and other learned men) in the Seven Kingdoms.",
-            "type:": "Scholastic Order",
+            "type": "Scholastic Order",
             "center": "The Citadel, Oldtown"
         }
     ]

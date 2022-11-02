@@ -10,22 +10,23 @@ const Regions = () => {
   return (
     <section>
       <article>
-        <h3>02</h3> <span> PICK YOUR DESTINATION </span>
-        <img src={map} alt={name} title={name} width="500" height="500"/>
+        <h3>
+          02 <span> PICK YOUR DESTINATION </span>
+        </h3>
+        <img src={map} alt={name} title={name} width="500" height="500" />
+      </article>
+      <article>
         <ul>
-          {gotRegions.map((regs, index) => (
+          {gotRegions.map((places, index) => (
             <li key={index}>
-              <button onClick={() => setValue(index)}>{regs.name}</button>
+              <button onClick={() => setValue(index)}>{places.name}</button>
             </li>
           ))}
         </ul>
-      </article>
-      <article>
-        <h2>{name} </h2> <p>{bio} </p> <br />
-        <p> Rulers </p>
-        <h6>{rulers}</h6>
-        <p>Capital</p>
-        <h6>{capital}</h6>
+        <h2>{name} </h2>
+        <h6>Rulers: {rulers}</h6>
+        <h6>Capital: {capital}</h6> <br />
+        <p>{bio} </p>
       </article>
     </section>
   );
