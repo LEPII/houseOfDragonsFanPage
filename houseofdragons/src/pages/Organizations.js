@@ -8,7 +8,7 @@ const Organizations = () => {
   const { name, images, description, type, center } = hodOrgs[value];
 
   return (
-    <section>
+    <>
       <h3>
         03 <span> JOIN A CAUSE</span>
       </h3>
@@ -27,10 +27,10 @@ const Organizations = () => {
         <h6>Center: {center}</h6>
         <h6>Type: {type}</h6>
       </article>
-      <article>
-        <img src={images} alt={name} title={name} width="700" height="400" />
-      </article>
-    </section>
+   
+        <img src={images} alt={name} title={name}  />
+
+    </>
   );
 };
 

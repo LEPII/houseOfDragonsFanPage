@@ -1,6 +1,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
 }
 
 
@@ -14,10 +15,18 @@ background-image: url(../public/assets/Home/Fire\ Backdrop.avif);
   background-repeat: no-repeat;
   color: #F6EDED;
   height: 100vh;
+  background-position:center;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
 }
 
 html{
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 
