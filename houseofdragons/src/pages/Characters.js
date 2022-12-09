@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import data from "../data.json";
+import "../style/characters.css";
+
 
 const Characters = () => {
   const [hodCharacter] = useState(data.characters);
@@ -8,9 +10,11 @@ const Characters = () => {
   const { name, portrait, description, region, house } = hodCharacter[value];
 
   return (
-    <section>
+    <section className="characters_container">
       <article>
-        <h3>01<span> CHOOSE YOUR MONARCH </span></h3> 
+        <h3>
+          01<span> CHOOSE YOUR MONARCH </span>
+        </h3>
         <h3>{name}</h3>
         <p>of House: {house}</p>
         <p>Homeland: {region}</p>

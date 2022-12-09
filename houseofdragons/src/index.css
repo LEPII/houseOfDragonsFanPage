@@ -1,21 +1,20 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  
 }
 
-
 body {
-font-family: 'Cormorant Garamond', serif;
-background-image: url(../public/assets/Home/Fire\ Backdrop.avif);
--webkit-background-size: cover;
+  font-family: "Cormorant Garamond", serif;
+  background-image: url(../public/assets/Home/Fire\ Backdrop.avif);
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #F6EDED;
+  color: #f6eded;
   height: 100vh;
-  background-position:center;
+
+  background-position: center;
 }
 
 img,
@@ -24,11 +23,10 @@ video {
   max-width: 100%;
 }
 
-html{
+html {
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
-
 
 a {
   text-decoration: none;

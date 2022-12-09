@@ -1,0 +1,18 @@
+.characters_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+    margin-top: auto;
+  position: fixed;
+    bottom: 0;
+    left: 50%;
+    /* width: 100%; */
+}

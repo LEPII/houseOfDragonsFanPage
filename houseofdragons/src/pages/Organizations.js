@@ -27,9 +27,8 @@ const Organizations = () => {
         <h6>Center: {center}</h6>
         <h6>Type: {type}</h6>
       </article>
-   
-        <img src={images} alt={name} title={name}  />
 
+      <img src={images} alt={name} title={name} />
     </>
   );
 };

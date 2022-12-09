@@ -20,7 +20,7 @@ root.render(
         <Route
           path="*"
           element={
-            <main >
+            <main>
               <p>There's nothing here!</p>
             </main>
           }
