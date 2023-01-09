@@ -38,11 +38,11 @@ const Characters = () => {
 
   return (
     <section className="characters_container">
+      <h3>
+        01<span> CHOOSE YOUR MONARCH </span>
+      </h3>{" "}
       <article className="characters_text">
-        <h3>
-          01<span> CHOOSE YOUR MONARCH </span>
-        </h3>
-        <ButtonSlider moveSlide={nextSlide} direction={"next"}/>
+        <ButtonSlider moveSlide={nextSlide} direction={"next"} />
         {/* <IoIosArrowBack />
         <IoIosArrowForward /> */}
         <ul className="characters_names">
@@ -52,7 +52,7 @@ const Characters = () => {
             </li>
           ))}
         </ul>
-   
+
         <div className="characters_titles">
           <h4>{name}</h4>
           <p>of House | {house}</p>
@@ -67,6 +67,7 @@ const Characters = () => {
         width="400"
         height="500"
         loading="lazy"
+        className="characters_image"
       />
     </section>
   );

@@ -103,7 +103,7 @@
     {
       "name": "Dorne",
       "map": "./assets/Regions/Dorne.webp",
-      "rulers": "House ",
+      "rulers": "House Martell",
       "capital": "Sunspear",
       "bio": "Dorne is one of the nine constituent regions of the Seven Kingdoms. It is the southernmost part of the continent of Westeros, located thousands of miles from Winterfell and the North, and has a harsh desert climate. The Dornishmen are ethnically distinct from the rest of the Seven Kingdoms, being largely descended from Rhoynar refugees who intermarried with the local population of Andals and First Men roughly a thousand years ago. As a result, they have very different customs and traditions compared to the other regions of Westeros."
     }

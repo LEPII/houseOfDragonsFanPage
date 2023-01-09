@@ -1,5 +1,4 @@
 .characters_container {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,12 +7,10 @@
   height: 100vh;
 }
 
-.characters_text
-{border: 3px solid red;
+.characters_text {
+  border: 3px solid red;
   padding-bottom: 2em;
-width: 37em; 
-  
-/* From https://css.glass */
+  width: 37em; 
   background: rgba(82, 55, 55, 0.19);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -59,8 +56,9 @@ h4 {
   justify-content: space-between;
 }
 
-img {
+.characters_image {
   max-inline-size: 100%;
-  block-size: auto;
+    block-size: auto;
+    object-fit: cover;
 }
 
