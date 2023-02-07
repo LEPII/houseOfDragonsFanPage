@@ -1,2 +1,12 @@
-/* .app_container {
-height: 100vh;} */
+.app_container {
+  background-image: url(../../public/assets/Home/Fire\ Backdrop.avif);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top;
+  background-color: rgb(159, 166, 183);
+    background-blend-mode: multiply;
+  min-height: 100vh;
+}

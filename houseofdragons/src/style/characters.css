@@ -1,16 +1,24 @@
 .characters_container {
+  margin-top: 4em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 100vh;
+}
+
+.characters_image {
+  position: fixed;
+  bottom: -12px;
+  max-inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
 }
 
 .characters_text {
+  width: 37em;
+  padding: 1.2em;
   border: 3px solid red;
-  padding-bottom: 2em;
-  width: 37em; 
   background: rgba(82, 55, 55, 0.19);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -20,45 +28,32 @@
 }
 
 .characters_text>* {
-  padding: 0.70em 0em;
+  padding: 0.20em 0em;
 }
 
-.characters_names_list {
-  padding-bottom: 1em;
-}
-
-.characters_titles {
-  padding: 0em 2em;
-  font-size: 1.5em;
-  text-align: left;
-}
-
-#characters_desc {
-padding: 2em 3em;
-text-align: left;
-height: 12em;
-}
-
-h3 {
+.characters_container h3 {
 font-size: 2em;
-padding: 0;
-}
-
-h4 {
-  text-align: center;
-  padding-bottom: 0.5em;
-  font-size: 2em;
+padding: 1em;
 }
 
 .characters_names {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
-.characters_image {
-  max-inline-size: 100%;
-    block-size: auto;
-    object-fit: cover;
+.characters_titles {
+  padding: 1em 1em;
+  font-size: 1.4em;
+  text-align: left;
 }
 
+.characters_titles :nth-child(4) {
+  font-size: 0.8em;
+  padding: 1em 0em;
+}
+
+.characters_titles h4 {
+  text-align: center;
+  padding: 1em;
+  font-size: 2em;
+}
