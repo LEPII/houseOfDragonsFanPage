@@ -4,24 +4,10 @@
   align-items: center;
 }
 
-.regions_names {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 .regions_text {
   text-align: left;
-  border: 3px solid red;
   padding: 2em;
-  margin: 4em;
   width: 37em;
-  background: rgba(82, 55, 55, 0.19);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8.9px);
-  -webkit-backdrop-filter: blur(8.9px);
-  border: 1px solid rgba(82, 55, 55, 0.26);
 }
 
 .regions_text h3 {
@@ -29,17 +15,51 @@
   text-align: center;
   padding: 1em
 }
-.regions_text h2 {
-  text-align: center;
-  font-size: 3em;
-  padding: 1em 0em;
+
+.regions_carousel {
+  cursor: grab;
+  overflow: hidden;
+   background: rgba(82, 55, 55, 0.124);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);  
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(82, 55, 55, 0.651);
+  max-height: fit-content;
 }
 
-.regions_text h6 {
-  font-size: 1.4em;
+.regions_inner_carousel {
+  display: flex;
+}
+
+.regions_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   min-width: fit-content;
+   min-height: 77vh; padding: 1em 1em;
+  font-size: 1.5em;
+  text-align: left;
+;}
+
+
+.regions_name h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 0.2em 0em;
+}
+
+.regions_name p {
+  font-size: 0.7em;
+}
+
+.regions_name h6 {
+  font-size: 1.05em;
 }
 
 .regions_image {
+  margin-top: 2em;
   max-inline-size: 100%;
     block-size: auto;
 }

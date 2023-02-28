@@ -1,4 +1,5 @@
 .app_container {
+  position: relative;
   background-image: url(../../public/assets/Home/Fire\ Backdrop.avif);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,4 +10,9 @@
   background-color: rgb(159, 166, 183);
     background-blend-mode: multiply;
   min-height: 100vh;
+  /* display: flex;
+  flex-direction: column  */
+  ;
+  /* justify-content:flex-start; */
 }
+

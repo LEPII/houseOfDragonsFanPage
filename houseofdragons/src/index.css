@@ -24,8 +24,7 @@ body {
 }
 
 img,
-picture,
-video {
+picture {
   max-width: 100%;
 }
 

@@ -1,0 +1,57 @@
+.dnt_container {
+  display: flex;
+  flex-direction: column;
+z-index: 0;    background: rgba(82, 55, 55, 0.124);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(82, 55, 55, 0.651);
+margin-top: 2em;
+flex: 1;
+}
+
+/* #dnt_title {
+  min-height: 80vh;
+} */
+
+.dnt_container  >* {
+  padding: 1em;
+}
+
+.dnt_container h1 {
+font-size: 3em;
+text-align: center;}
+
+.dnt_container h3 {
+  font-size: 1.4em;
+}
+
+.dnt_container span {
+  font-size: 1.4em;
+}
+
+.dnt_image {
+    max-inline-size: 100%;
+      block-size: auto;
+}
+
+.dnt_btn {font-size: 2em;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  padding: 0;
+  align-items: center;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  height: 48px;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;}

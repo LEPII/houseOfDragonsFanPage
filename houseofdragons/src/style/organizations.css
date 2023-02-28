@@ -8,16 +8,26 @@
 
 .organizations_text {
   text-align: left;
-    border: 3px solid red;
     padding: 2em;
     margin: 4em;
     width: 37em;
-    background: rgba(82, 55, 55, 0.19);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8.9px);
-    -webkit-backdrop-filter: blur(8.9px);
-    border: 1px solid rgba(82, 55, 55, 0.26);
+  
+}
+
+.organizations_carousel {
+  cursor: grab;
+  overflow: hidden;
+  background: rgba(82, 55, 55, 0.124);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(82, 55, 55, 0.651);
+  max-height: fit-content;
+}
+
+.organizations_inner_carousel {
+  display: flex;
 }
 
 .organizations_text h3 {
@@ -26,16 +36,15 @@
   padding: 1em;
 }
 
-.organizations_name {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 .organizations_titles {  
-  
-  font-size: 1.4em;
-  text-align: left;
+  min-width: 80vw;
+    min-height: 77vh;
+  font-size: 1.4em;padding: 1.5em 2em;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .organizations_titles p {

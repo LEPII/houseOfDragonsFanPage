@@ -1,42 +1,55 @@
-import { useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import data from "../data.json";
 import "../style/characters.css";
-import { Carousel } from "react-carousel-minimal";
- 
+
 const Characters = () => {
   const [hodCharacter] = useState(data.characters);
-  const [value, setValue] = useState(0);
-  const { name, portrait, description, region, house } = hodCharacter[value];
-console.log(hodCharacter)
-console.log(Carousel)
+  const [width, setWidth] = useState(0);
+
+  const carousel = useRef();
+
+  useEffect(() => {
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+  }, []);
+
   return (
     <section className="characters_container">
-      <img
-        src={portrait}
-        alt={name}
-        title={name}
-        width="350"
-        height="300"
-        loading="lazy"
-        className="characters_image"
-      />
       <article className="characters_text">
         <h3>
           01<span> CHOOSE YOUR MONARCH </span>
         </h3>
-        <ul className="characters_names">
-          {hodCharacter.map((player, index) => (
-            <li key={index}>
-              <button onClick={() => setValue(index)}>{player.name}</button>
-            </li>
-          ))}
-        </ul>
-        <div className="characters_titles">
-          <h4>{name}</h4>
-          <p>of House | {house}</p>
-          <p>Homeland | {region}</p>
-          <p>{description}</p>
-        </div>
+        <motion.div
+          ref={carousel}
+          className="characters_carousel"
+          whileHover={{ scale: 1.01 }}
+        >
+          <motion.div
+            className="characters_inner_carousel"
+            drag="x"
+            dragConstraints={{ right: 0, left: -width }}
+          >
+            {hodCharacter && hodCharacter.map((player, index) => {
+              return (
+                <motion.div className="characters_titles" key={index}>
+                  <h4>{player.name}</h4>
+                  <h6>of House: {player.house}</h6>
+                  <h6>Homeland: {player.region}</h6>
+                  <p>{player.description}</p>
+                  <img
+                    src={player.portrait}
+                    alt={player.name}
+                    title={player.name}
+                    width="300"
+                    height="300"
+                    loading="lazy"
+                    className="characters_image"
+                  />
+                </motion.div>
+              );
+            })}
+          </motion.div>
+        </motion.div>
       </article>
     </section>
   );
