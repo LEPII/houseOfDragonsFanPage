@@ -1,12 +1,13 @@
 import React from "react";
 import "../style/donate.css";
-import MomAndSon from "./Donate/MomAndSon.jpeg"
+import MomAndSon from "./Donate/MomAndSon.jpeg";
+import { motion } from "framer-motion";
 
 const Donate = () => {
   return (
     <section className="dnt_container">
       <h1>Support Venezuelans In Need Of Food And Education </h1>
-      <div className="dnt_what_section" id="dnt_title">
+      <div className="dnt_what_section">
         <h3> What Is It?</h3>
         <span>
           Coromoto 2020 is a non-profit organization of a group of committed lay
@@ -25,7 +26,11 @@ const Donate = () => {
         </span>
       </div>
       <h1> Visit Their Website And Make A Difference Today</h1>
-      <button className="dnt_btn">VISIT</button>
+      <a href="https://www.coromoto2020.com/" target="_blank" rel="noreferrer">
+        <motion.button className="dnt_btn" whileHover={{ scale: 1.25 }}>
+          &#9734; VISIT
+        </motion.button>
+      </a>
       <img
         src={MomAndSon}
         alt={"Mother with Son"}

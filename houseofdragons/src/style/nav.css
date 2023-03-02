@@ -16,16 +16,17 @@
 }
 
 li {
-  margin-right: 6rem;
+  margin-right: 4rem;
   position: relative;
-  z-index: auto;
 }
 
 li:last-child {
   margin-right: 0;
 }
 
-
+.nav_list li:hover {
+  border-bottom: 1px solid #eca9a9;
+}
 
 .active {
   border-bottom: 1px solid #eca9a9;
@@ -47,7 +48,6 @@ button {
   top: 100%;
   min-width: 100%;
   padding: 1em;
-  z-index: 10;
     border-radius: 16px;
   }
 

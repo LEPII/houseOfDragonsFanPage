@@ -67,3 +67,10 @@
 .explore_button:focus {
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 3px;
 }
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  
+.home_container {
+  padding: 7em;
+}    
+} 

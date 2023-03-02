@@ -11,8 +11,6 @@
     background-blend-mode: multiply;
   min-height: 100vh;
   /* display: flex;
-  flex-direction: column  */
-  ;
-  /* justify-content:flex-start; */
+  flex-direction: column ;
+  justify-content:flex-start; */
 }
-

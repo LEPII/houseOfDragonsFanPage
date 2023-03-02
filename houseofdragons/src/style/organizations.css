@@ -60,3 +60,25 @@ padding: 1em 0em;
   max-inline-size: 100%;
     block-size: auto;
 }
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .organizations_text {
+    width: 57em;
+  }
+
+  .organizations_container h3 {
+    font-size: 2.5em;
+  }
+
+  .organizations_titles {
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 65vw;
+  }
+
+  .organizations_image {
+    width: 85%;
+  }
+}

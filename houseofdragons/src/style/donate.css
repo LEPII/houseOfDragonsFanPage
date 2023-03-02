@@ -1,38 +1,29 @@
 .dnt_container {
   display: flex;
   flex-direction: column;
-z-index: 0;    background: rgba(82, 55, 55, 0.124);
-    border-radius: 16px;
+  align-items: center;
+background: rgba(82, 55, 55, 0.124);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);
     -webkit-backdrop-filter: blur(2.9px);
-    border: 1px solid rgba(82, 55, 55, 0.651);
-margin-top: 2em;
-flex: 1;
+      margin-bottom: 2em;
+/* flex: 1; */
 }
 
-/* #dnt_title {
-  min-height: 80vh;
-} */
-
-.dnt_container  >* {
-  padding: 1em;
+.dnt_container  > * {
+  padding: 2em;
 }
 
 .dnt_container h1 {
-font-size: 3em;
+font-size: 2.5em;
 text-align: center;}
 
 .dnt_container h3 {
-  font-size: 1.4em;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 .dnt_container span {
   font-size: 1.4em;
-}
-
-.dnt_image {
-    max-inline-size: 100%;
-      block-size: auto;
 }
 
 .dnt_btn {font-size: 2em;
@@ -40,12 +31,15 @@ text-align: center;}
   text-shadow: 1px 1px 3px rgb(255, 255, 255);
   padding: 0;
   align-items: center;
-  background-image: linear-gradient(#464d55, #25292e);
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.05);
+background: -webkit-linear-gradient(110deg, #c196144b 33%, rgba(0, 0, 0, 0) 23%), -webkit-linear-gradient(110deg, #c43f4e61 66%, #c43f4e61 66%);
+  background: -o-linear-gradient(110deg, #c196144b 33%, rgba(0, 0, 0, 0) 23%), -o-linear-gradient(110deg, #00247e5c 66%, #c43f4e61 66%);
+  background: -moz-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 23%), -moz-linear-gradient(110deg, #00247e5c 66%, #c43f4e61 66%);
+  background: linear-gradient(110deg, #c196144b 33%, rgba(0, 0, 0, 0) 23%), linear-gradient(110deg, #00247e5c 66%, #c43f4e61 66%);  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.452), 0 3px 6px rgba(0, 0, 0, 0.488);
   color: #fff;
   cursor: pointer;
-  display: inline-flex;
+  margin-bottom: 1em;
+  display: inline-flex;  
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -55,3 +49,22 @@ text-align: center;}
   width: 10em;
   margin-left: auto;
   margin-right: auto;}
+
+    .dnt_btn:hover {
+      box-shadow: rgba(0, 1, 0, 0.2) 0 2px 8px;
+      opacity: 0.85;
+    }
+  
+    .dnt_btn:active {
+      outline: 0;
+    }
+  
+    .dnt_btn:focus {
+      box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 3px;
+    }
+    
+    .dnt_image {
+    max-inline-size: 100%;
+      block-size: auto;
+      margin-bottom: 2em;
+}

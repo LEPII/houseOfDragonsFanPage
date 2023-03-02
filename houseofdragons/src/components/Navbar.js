@@ -23,7 +23,18 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <button onClick={toggleDropdown}> WORLD ▼ </button>
+          <button
+            onClick={toggleDropdown}
+            className={
+              location.pathname === "/characters" ||
+              location.pathname === "/organizations" ||
+              location.pathname === "/regions"
+                ? "active"
+                : ""
+            }
+          >
+            WORLD ▼
+          </button>
           {showDropdown && (
             <ul className="nav_inner">
               <li
