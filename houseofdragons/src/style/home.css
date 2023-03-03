@@ -73,4 +73,11 @@
 .home_container {
   padding: 7em;
 }    
-} 
+}
+
+@media screen and (min-width: 1201px) {
+  .home_container {
+    font-size: 1.5em;
+    padding: 30em;
+  }
+}

@@ -1,4 +1,5 @@
 .navbar {
+  position: fixed; width: 100vw;
   background: rgba(82, 55, 55, 0.259);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);
     backdrop-filter: blur(2.9px);
@@ -57,4 +58,18 @@ button {
 
 li:hover > ul {
   display: block;
+}
+
+@media screen and (min-width: 1201px) {
+  .navbar {
+    font-size: 2em;
+  }
+
+  button {
+    font-size: 1em;
+  }
+
+ li {
+      margin-right: 4em;
+    }
 }

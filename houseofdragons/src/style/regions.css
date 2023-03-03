@@ -85,3 +85,25 @@
     width: 75%;
   }
 }
+
+@media screen and (min-width: 1201px) {
+  .regions_text {
+    width: 67em;
+  }
+
+  .regions_container h3 {
+    font-size: 2.5em;
+  }
+
+  .regions_name {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 23vw;
+  }
+
+  .regions_image {
+    width: 75%;
+  }
+}

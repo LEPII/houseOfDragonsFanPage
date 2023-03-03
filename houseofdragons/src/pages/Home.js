@@ -10,7 +10,7 @@ const Home = () => {
       <h1>
         House of Dragons <br />
       </h1>
-      <h2>Fan BRO Page</h2>
+      <h2>Fans Page</h2>
       
       <p>
         Explore the monarchs that keeps the kingdoms at bay with their dragons,
