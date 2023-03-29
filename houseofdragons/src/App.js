@@ -3,7 +3,6 @@ import { Outlet, BrowserRouter, Routes, Route } from "react-router-dom";
 import "./style/app.css";
 import Characters from "./pages/Characters";
 import Home from "./pages/Home";
-import World from "./pages/World";
 import Regions from "./pages/Regions";
 import Organizations from "./pages/Organizations";
 import Donate from "./pages/Donate";
@@ -16,7 +15,6 @@ const App = () => {
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/world" element={<World />} />
           <Route path="/characters" element={<Characters />} />
           <Route path="/regions" element={<Regions />} />
           <Route path="/organizations" element={<Organizations />} />

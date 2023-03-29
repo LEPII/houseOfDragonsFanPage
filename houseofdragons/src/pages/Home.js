@@ -4,10 +4,9 @@ import "../style/home.css";
 import { motion } from "framer-motion";
 
 const Home = () => {
-
   return (
     <section className="home_container">
-      <p>What is this breif, mortal life, if not the pursuit of legacy?</p>
+      <p>What is this brief, mortal life, if not the pursuit of legacy?</p>
       <h1>
         House of Dragons <br />
       </h1>

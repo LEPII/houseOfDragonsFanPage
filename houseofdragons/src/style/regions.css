@@ -15,15 +15,15 @@
 .regions_text h3 {
   font-size: 2em;
   text-align: center;
-  padding: 1em
+  padding: 1em;
 }
 
 .regions_carousel {
   cursor: grab;
   overflow: hidden;
-   background: rgba(82, 55, 55, 0.124);
+  background: rgba(82, 55, 55, 0.124);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);
   backdrop-filter: blur(8.9px);
   -webkit-backdrop-filter: blur(8.9px);
   border: 1px solid rgba(82, 55, 55, 0.651);
@@ -39,12 +39,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   min-width: fit-content;
-   min-height: 77vh; padding: 1em 1em;
+  min-width: fit-content;
+  min-height: 77vh;
+  padding: 1em 1em;
   font-size: 1.8em;
   text-align: left;
-;}
-
+}
 
 .regions_name h2 {
   text-align: center;
@@ -63,7 +63,7 @@
 .regions_image {
   margin-top: 2em;
   max-inline-size: 100%;
-    block-size: auto;
+  block-size: auto;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {

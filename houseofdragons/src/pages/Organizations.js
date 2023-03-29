@@ -29,24 +29,25 @@ const Organizations = () => {
             drag="x"
             dragConstraints={{ right: 0, left: -width }}
           >
-            {hodOrgs && hodOrgs.map((comp, index) => {
-              return (
-                <div className="organizations_titles" key={index}>
-                  <h4>{comp.name} </h4>
-                  <h6>Center: {comp.center}</h6>
-                  <h6>Type: {comp.type}</h6> <p>{comp.description}</p>
-                  <img
-                    src={comp.images}
-                    alt={comp.name}
-                    title={comp.name}
-                    width="300"
-                    height="300"
-                    loading="lazy"
-                    className="organizations_image"
-                  />
-                </div>
-              );
-            })}
+            {hodOrgs &&
+              hodOrgs.map((comp, index) => {
+                return (
+                  <div className="organizations_titles" key={index}>
+                    <h4>{comp.name} </h4>
+                    <h6>Center: {comp.center}</h6>
+                    <h6>Type: {comp.type}</h6> <p>{comp.description}</p>
+                    <img
+                      src={comp.images}
+                      alt={comp.name}
+                      title={comp.name}
+                      width="300"
+                      height="300"
+                      loading="lazy"
+                      className="organizations_image"
+                    />
+                  </div>
+                );
+              })}
           </motion.div>
         </motion.div>
       </article>

@@ -1,4 +1,3 @@
-
 import React, { useRef, useEffect, useState } from "react";
 import data from "../data.json";
 import "../style/regions.css";
@@ -10,7 +9,7 @@ const Regions = () => {
 
   const carousel = useRef();
 
- useEffect(() => {
+  useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
 

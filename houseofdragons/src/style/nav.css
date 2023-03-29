@@ -1,9 +1,11 @@
 .navbar {
-  position: fixed; width: 100vw;
+  position: fixed;
+  width: 100vw;
   background: rgba(82, 55, 55, 0.259);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);
-    backdrop-filter: blur(2.9px);
-    -webkit-backdrop-filter: blur(2.9px);     border-width: 2px 0 2px 2px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.369);
+  backdrop-filter: blur(2.9px);
+  -webkit-backdrop-filter: blur(2.9px);
+  border-width: 2px 0 2px 2px;
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
@@ -49,12 +51,12 @@ button {
   top: 100%;
   min-width: 100%;
   padding: 1em;
-    border-radius: 16px;
-  }
+  border-radius: 16px;
+}
 
-  .nav_inner li {
-    margin: 6px;
-  }
+.nav_inner li {
+  margin: 6px;
+}
 
 li:hover > ul {
   display: block;
@@ -69,7 +71,7 @@ li:hover > ul {
     font-size: 1em;
   }
 
- li {
-      margin-right: 4em;
-    }
+  li {
+    margin-right: 4em;
+  }
 }

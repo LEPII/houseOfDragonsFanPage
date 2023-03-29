@@ -1,17 +1,16 @@
 .organizations_container {
-    display: flex;
-      flex-direction: column;
-          justify-content: center;
-      align-items: center;
-      height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .organizations_text {
   text-align: left;
-    padding: 2em;
-    margin: 4em;
-    width: 37em;
-  
+  padding: 2em;
+  margin: 4em;
+  width: 37em;
 }
 
 .organizations_carousel {
@@ -36,29 +35,29 @@
   padding: 1em;
 }
 
-
-.organizations_titles {  
+.organizations_titles {
   min-width: 80vw;
-    min-height: 77vh;
-  font-size: 1.4em;padding: 1.5em 2em;
+  min-height: 77vh;
+  font-size: 1.4em;
+  padding: 1.5em 2em;
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .organizations_titles p {
-padding: 1em 0em;
+  padding: 1em 0em;
 }
 
 .organizations_titles h4 {
   text-align: center;
-    font-size: 2em;
-    padding: 1em 0em;
+  font-size: 2em;
+  padding: 1em 0em;
 }
 .organizations_image {
   max-inline-size: 100%;
-    block-size: auto;
+  block-size: auto;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
@@ -98,7 +97,7 @@ padding: 1em 0em;
     flex-direction: column;
     align-items: center;
     min-width: 23vw;
-        min-height: 57vh;
+    min-height: 57vh;
   }
 
   .organizations_image {

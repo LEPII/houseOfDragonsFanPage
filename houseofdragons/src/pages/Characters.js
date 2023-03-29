@@ -10,11 +10,10 @@ const Characters = () => {
 
   const carousel = useRef(null);
 
-
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
     const helper = document.querySelector(".helper_icon");
-    helper.classList.add("helper_icon_load")
+    helper.classList.add("helper_icon_load");
   }, []);
 
   return (
@@ -22,15 +21,15 @@ const Characters = () => {
       <article className="characters_text">
         <h3>
           01<span> CHOOSE YOUR MONARCH </span>
-        </h3><BsHandIndex className="helper_icon" />
-        
+        </h3>
+        <BsHandIndex className="helper_icon" />
+
         <motion.div
           ref={carousel}
           className="characters_carousel"
           whileHover={{ scale: 1.01 }}
         >
           <motion.div
-          
             className="characters_inner_carousel"
             drag="x"
             dragConstraints={{ right: 0, left: -width }}

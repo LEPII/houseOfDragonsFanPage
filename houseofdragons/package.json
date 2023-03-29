@@ -22,7 +22,8 @@
   },
   "scripts": {
     "serve": "webpack serve --mode development",
-    "build": "webpack --mode production",
+    "build": "react-scripts build",
+    "wp-build": "webpack --mode production",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "lint": "eslint .  --ext .js",
